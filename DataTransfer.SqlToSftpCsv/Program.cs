@@ -71,7 +71,10 @@ namespace DataTransfer.SqlToSftpCsv
                     await csvWriter.NextRecordAsync();
                 }
 
+                // Reset memory stream to begining
                 memoryStream.Position = 0;
+
+                // Upload memory stream
                 destinationSftp.UploadFile(memoryStream, _remoteOutputPath);
             }
         }
