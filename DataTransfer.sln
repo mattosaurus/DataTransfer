@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29411.108
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTransfer.SqlToLocalCsv", "DataTransfer.SqlToLocalCsv\DataTransfer.SqlToLocalCsv.csproj", "{02E7CA68-0A35-4651-BE9B-D73A9FED4DC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTransfer.SqlToSftpCsv", "DataTransfer.SqlToSftpCsv\DataTransfer.SqlToSftpCsv.csproj", "{CDFE0016-B72C-45EA-86D9-AA6C09DB2DDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTransfer.SqlToSftpCsv", "DataTransfer.SqlToSftpCsv\DataTransfer.SqlToSftpCsv.csproj", "{CDFE0016-B72C-45EA-86D9-AA6C09DB2DDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTransfer.GoogleBigQueryToGoogleCloudStorage", "DataTransfer.GoogleBigQueryToGoogleCloudStorage\DataTransfer.GoogleBigQueryToGoogleCloudStorage.csproj", "{442E0D13-4AD0-428E-BC99-8B7A1A570FB1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{CDFE0016-B72C-45EA-86D9-AA6C09DB2DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDFE0016-B72C-45EA-86D9-AA6C09DB2DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDFE0016-B72C-45EA-86D9-AA6C09DB2DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{442E0D13-4AD0-428E-BC99-8B7A1A570FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{442E0D13-4AD0-428E-BC99-8B7A1A570FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{442E0D13-4AD0-428E-BC99-8B7A1A570FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{442E0D13-4AD0-428E-BC99-8B7A1A570FB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
