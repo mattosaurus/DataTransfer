@@ -12,8 +12,8 @@ namespace DataTransfer.SqlToSftpCsv
 {
     class Program
     {
-        private const string _schema = "dbo";
-        private const string _table = "<YOURTABLENAME>";
+        private const string _sqlSchema = "dbo";
+        private const string _sqlTable = "<YOURTABLENAME>";
         private const string _sqlConnectionString = "<YOURSQLCONNECTIONSTRING>";
         private const string _host = "<YOURSFTPHOST>";
         private const string _userName = "<YOURSFTPUSERNAME>";
@@ -48,7 +48,7 @@ namespace DataTransfer.SqlToSftpCsv
 
                 bool writeHeaders = true;
 
-                await foreach (DataRow row in GetSqlRowsAsync(_schema, _table))
+                await foreach (DataRow row in GetSqlRowsAsync(_sqlSchema, _sqlTable))
                 {
                     // Write header row
                     if (writeHeaders)
