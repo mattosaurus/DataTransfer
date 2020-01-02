@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29411.108
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTransfer.SqlToLocalCsv", "DataTransfer.SqlToLocalCsv\DataTransfer.SqlToLocalCsv.csproj", "{02E7CA68-0A35-4651-BE9B-D73A9FED4DC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTransfer.SqlToSftpCsv", "DataTransfer.SqlToSftpCsv\DataTransfer.SqlToSftpCsv.csproj", "{CDFE0016-B72C-45EA-86D9-AA6C09DB2DDC}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02E7CA68-0A35-4651-BE9B-D73A9FED4DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E7CA68-0A35-4651-BE9B-D73A9FED4DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E7CA68-0A35-4651-BE9B-D73A9FED4DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E7CA68-0A35-4651-BE9B-D73A9FED4DC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDFE0016-B72C-45EA-86D9-AA6C09DB2DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDFE0016-B72C-45EA-86D9-AA6C09DB2DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDFE0016-B72C-45EA-86D9-AA6C09DB2DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDFE0016-B72C-45EA-86D9-AA6C09DB2DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
