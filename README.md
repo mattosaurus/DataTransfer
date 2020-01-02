@@ -23,3 +23,4 @@ C# 8.0 is also required to allow usage of IAsyncEnumerable, this may need to be 
 
 * [SqlToLocalCsv](https://github.com/mattosaurus/DataTransfer/tree/master/DataTransfer.SqlToLocalCsv): Stream a SQL table to a local CSV file.
 * [SqlToSftpCsv](https://github.com/mattosaurus/DataTransfer/tree/master/DataTransfer.SqlToSftpCsv): Stream a SQL table to a CSV file on a remote SFTP server.
+* [GoogleBigQueryToGoogleCloudStorage](https://github.com/mattosaurus/DataTransfer/tree/master/DataTransfer.GoogleBigQueryToGoogleCloudStorage): Export a BigQuery table to a CSV file in Google Cloud Storage.
