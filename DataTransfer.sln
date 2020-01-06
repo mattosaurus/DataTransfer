@@ -3,15 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29411.108
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTransfer.SqlToLocalCsv", "DataTransfer.SqlToLocalCsv\DataTransfer.SqlToLocalCsv.csproj", "{02E7CA68-0A35-4651-BE9B-D73A9FED4DC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTransfer.SqlToLocalCsv", "DataTransfer.SqlToLocalCsv\DataTransfer.SqlToLocalCsv.csproj", "{02E7CA68-0A35-4651-BE9B-D73A9FED4DC1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTransfer.SqlToSftpCsv", "DataTransfer.SqlToSftpCsv\DataTransfer.SqlToSftpCsv.csproj", "{CDFE0016-B72C-45EA-86D9-AA6C09DB2DDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTransfer.GoogleBigQueryToGoogleCloudStorage", "DataTransfer.GoogleBigQueryToGoogleCloudStorage\DataTransfer.GoogleBigQueryToGoogleCloudStorage.csproj", "{442E0D13-4AD0-428E-BC99-8B7A1A570FB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTransfer.GoogleBigQueryToGoogleCloudStorage", "DataTransfer.GoogleBigQueryToGoogleCloudStorage\DataTransfer.GoogleBigQueryToGoogleCloudStorage.csproj", "{442E0D13-4AD0-428E-BC99-8B7A1A570FB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTransfer.GoogleCloudStorageToSql", "DataTransfer.GoogleCloudStorageToSql\DataTransfer.GoogleCloudStorageToSql.csproj", "{2F93A092-7BE4-438F-AF62-F42A23855329}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTransfer.GoogleCloudStorageToSql", "DataTransfer.GoogleCloudStorageToSql\DataTransfer.GoogleCloudStorageToSql.csproj", "{2F93A092-7BE4-438F-AF62-F42A23855329}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTransfer.SqlToSftpCsvGz", "DataTransfer.SqlToSftpCsvGz\DataTransfer.SqlToSftpCsvGz.csproj", "{395D7628-1CF0-475F-952D-FFB6E311FB43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTransfer.SqlToSftpCsvGz", "DataTransfer.SqlToSftpCsvGz\DataTransfer.SqlToSftpCsvGz.csproj", "{395D7628-1CF0-475F-952D-FFB6E311FB43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTransfer.SqlToGoogleCloudStorage", "DataTransfer.SqlToGoogleCloudStorage\DataTransfer.SqlToGoogleCloudStorage.csproj", "{05EC1914-A3A0-4C0C-9640-D03AE5EE9214}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTransfer.SqlToLocalCsvGz", "DataTransfer.SqlToLocalCsvGz\DataTransfer.SqlToLocalCsvGz.csproj", "{A7AB6FD5-9421-4B04-88FA-9EE7EF8A2524}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTransfer.GoogleCloudStorageToAzureBlobStorage", "DataTransfer.GoogleCloudStorageToAzureBlobStorage\DataTransfer.GoogleCloudStorageToAzureBlobStorage.csproj", "{20F4B4DE-FE4F-40DF-AD4A-7A1AA593C71E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{395D7628-1CF0-475F-952D-FFB6E311FB43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{395D7628-1CF0-475F-952D-FFB6E311FB43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{395D7628-1CF0-475F-952D-FFB6E311FB43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05EC1914-A3A0-4C0C-9640-D03AE5EE9214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05EC1914-A3A0-4C0C-9640-D03AE5EE9214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05EC1914-A3A0-4C0C-9640-D03AE5EE9214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05EC1914-A3A0-4C0C-9640-D03AE5EE9214}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7AB6FD5-9421-4B04-88FA-9EE7EF8A2524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7AB6FD5-9421-4B04-88FA-9EE7EF8A2524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7AB6FD5-9421-4B04-88FA-9EE7EF8A2524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7AB6FD5-9421-4B04-88FA-9EE7EF8A2524}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20F4B4DE-FE4F-40DF-AD4A-7A1AA593C71E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20F4B4DE-FE4F-40DF-AD4A-7A1AA593C71E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20F4B4DE-FE4F-40DF-AD4A-7A1AA593C71E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20F4B4DE-FE4F-40DF-AD4A-7A1AA593C71E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
