@@ -18,7 +18,7 @@ namespace DataTransfer.GoogleCloudStorageToSql
     {
         private const string _cloudStorageBucketName = "<BUCKETNAMEWHERESTORAGEOBJECTSEXIST>";
         private const string _cloudStorageObjectPrefix = "<PREFIXOFYOURSTORAGEOBJECTS>";
-        private const string _googleCredentialPath = "<YOURTABLENAME>";
+        private const string _googleCredentialPath = "<PATHTOYOURGOOGLECREDENTIALS>";
         private const string _sqlSchema = "dbo";
         private const string _sqlTable = "<YOURTABLENAME>";
         private const string _sqlConnectionString = "<YOURSQLCONNECTIONSTRING>";
